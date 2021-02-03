@@ -1,0 +1,75 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.page-container {
+    padding: 0;
+}
+.overlay{
+    color:#fff;
+    text-align: center;
+    padding: 8em 3em;
+    background-color: #13131069;
+}
+.text-black {
+    color: #000;
+}
+.home-container{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5dYmBcdkz4Fepi51_ArbKTCf_iru__alGnQ&usqp=CAU') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+button.mybtn{
+    background-color:white;
+    color:black;
+    margin: 20px;
+    border-color:black ;
+}
+.html-img{
+    width: 70px;
+    margin: 20px;
+    margin-right: 20px;
+}
+.css-img{
+    width: 50px;
+    margin: 20px;
+    margin-right: 20px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    background-color: black;
+    display: inline-block;
+    margin-right:20px ;
+}
+button.mybtn:hover{
+    background-color:black;
+    color:white;
+    box-shadow: 0 0 5px 2px #fff;
+    border-color:white ;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.login-btn {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 20px;
+    background: #e49400;
+    border-color: #e49400;
+}

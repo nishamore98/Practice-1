@@ -1,60 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>background-image</title>
-        <style>
-            body{
-                padding: 0%;
-                margin: 0%;
-            }
-            .overlay{
-                color:black);
-                text-align: center;
-                padding: 8em 3em;
-                background-color: #fff9c769;
-                margin:-15px;
-            }
-            .container-fluid{
-                background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5dYmBcdkz4Fepi51_ArbKTCf_iru__alGnQ&usqp=CAU') ;
-                background-repeat: no-repeat;
-                background-size: cover;
-                
-                
-            }
-            .wrapper{
-                display: inline-block;
-                margin: 20px;
-                font-size: 20px;
-            }
-            .btn{
-                background-color: orange;
-                padding: 5px;
-                border-radius: 10px;
-                border-color: #86838300;
-                margin: 20px;
-                border: green;
-            }
-            .html-img{
-                width: 70px;
-                margin: 20px;
-                margin-right: 20px;
-            }
-            .css-img{
-                width: 50px;
-                margin: 20px;
-                margin-right: 20px;
-            }
-            button:hover{
-                cursor: pointer;
-                background-color: green;
-                border: green;
-            }
-        </style>
+        <title>LearnFromHome</title>
+        <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.aU-_2zT93Z18WGX-f8HeAQAAAA&pid=Api&P=0&w=300&h=300" sizes="16x16 32x32" type="image/png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="">Contact us</a>
+                </li>
+                <li>
+                    <a href="">Career</a>
+                </li>
+            </ul>
+        </nav>
         
-        <div class="container-fluid">
+        <div class="container-fluid page-container home-container">
             <div class="overlay">
                 
                 <h1>I am future web developer</h1>
@@ -66,13 +36,13 @@
                 </div>
                 <div>
                 
-                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-primary mybtn" data-toggle="modal" data-target="#exampleModal">
                         Register for free course
                     </button>
                     
                    
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog text-black" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Fill your information</h5>
@@ -85,20 +55,22 @@
                                 <input type="text"><br><br>
                                 <label>User Password :</label>
                                 <input type="password"><br><br>
-                            <a href="#">create new account</a>
+
+                                <button type="button" class="btn btn-primary login-btn">Sign Up</button>
+                                <button type="button" class="btn btn-primary login-btn">Login</button>
+                                <br>
+                                <a href="#">Create new account</a>
+                                <br>
 
                             </div>
-                            <div class="modal-footer">
+                            <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+                            <button type="button" class="btn btn-primary">Login</button>
+                            </div> -->
                         </div>
                         </div>
                     </div>
                 </div><br><br>
-                <img class="html-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png">
-                <img class="css-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
-                <img class="html-img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png">
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
