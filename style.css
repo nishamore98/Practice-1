@@ -56,11 +56,14 @@ li{
     display: inline-block;
     margin-right:20px ;
 }
-button.mybtn:hover{
+button.mybtn:hover, button.mybtn:not(:disabled):not(.disabled):active, 
+button.mybtn:not(:disabled):not(.disabled):focus, 
+ button.mybtn:not(:disabled):not(.disabled):active:focus {
     background-color:black;
     color:white;
     box-shadow: 0 0 5px 2px #fff;
     border-color:white ;
+   
 }
 nav ul li a:hover{
     color: white;
