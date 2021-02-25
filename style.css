@@ -91,3 +91,20 @@ nav ul li a:hover{
 .row.myrow {
     padding: 10px 20px;
 }
+.google-logo{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2px;
+}
+.myfooter{
+    background-color: black;
+    color: darkgray;
+}
+.appstore-logo{
+    width: 70px;
+    height: 30px;
+    margin-bottom: 2px; 
+}
+p{
+    margin-bottom: 2px;
+}
