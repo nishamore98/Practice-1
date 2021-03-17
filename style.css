@@ -6,6 +6,7 @@ body{
     padding: 0;
 }
 .overlay{
+    width: 100%;
     color:#fff;
     text-align: center;
     padding: 8em 3em;
@@ -42,18 +43,17 @@ button.mybtn{
     margin-right: 20px;
 }
 nav{
-    background-color: black;
+    background-color:#ddd;
     padding: 10px;
 }
 nav ul {
     margin: 0;
 }
 nav ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 li{
-    background-color: black;
     display: inline-block;
     margin-right:20px ;
 }
@@ -67,7 +67,7 @@ button.mybtn:not(:disabled):not(.disabled):focus,
    
 }
 nav ul li a:hover{
-    color: white;
+    color: rgb(99, 97, 97);
     text-decoration: none;
 }
 .login-btn {
@@ -92,19 +92,35 @@ nav ul li a:hover{
     padding: 10px 20px;
 }
 .google-logo{
-    width: 30px;
+    width: 90px;
     height: 30px;
     margin-bottom: 2px;
 }
-.myfooter{
-    background-color: black;
-    color: darkgray;
+.myfooter  {
+    background-color:#ddd;
+    color: black;
+    padding: 25px 20px;
 }
 .appstore-logo{
-    width: 70px;
+    width: 90px;
     height: 30px;
     margin-bottom: 2px; 
 }
-p{
-    margin-bottom: 2px;
+img{
+    width: 50px;
+}
+.footer-icon{
+    display: inline-block;
+}
+div.myfooter a, div.myfooter p {
+    color:grey;
+}
+.myfooter .myfooter-copyrite p{
+    text-align: center;
+    color: black;
+    margin:0px;
+}
+div>a:hover{
+    text-decoration: none;
+    color: black;
 }
