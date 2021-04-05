@@ -6,16 +6,19 @@ body{
     padding: 0;
 }
 .overlay{
+    height: 100vh;
     width: 100%;
     color:#fff;
     text-align: center;
-    padding: 8em 3em;
+    padding: 17%;
     background-color: #13131069;
 }
 .text-black {
     color: #000;
 }
 .home-container{
+
+    height: 100vh;
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5dYmBcdkz4Fepi51_ArbKTCf_iru__alGnQ&usqp=CAU') ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,3 +127,44 @@ div>a:hover{
     text-decoration: none;
     color: black;
 }
+.about-container  {
+    height: 100vh;
+    background-image:url('about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay > p {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.myCard {
+    color: #000;
+    position: relative;
+    left: 5%;
+    padding:0px 30px;
+}
+.about-wrapper {
+    margin: -5% 15%;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+.brands {
+    margin: 0 15%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.brands .row {
+    margin: 0;
+}
+img.brand-img {
+    width: 100%;
+}
+.myCard:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
